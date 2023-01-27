@@ -1,0 +1,35 @@
+apiVersion: v1
+entries:
+  helm-chart-test:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-01-27T07:59:06.867005Z"
+    description: A Helm chart for Kubernetes
+    digest: 4d955c9643d4bdd019f1c78871cfdb22159a6c08f2a2fceb7245dec7caf90276
+    name: helm-chart-test
+    type: application
+    urls:
+    - https://david-heward-unmind.github.io/charts/helm-chart-test-0.1.0.tgz
+    version: 0.1.0
+  raw:
+  - apiVersion: v2
+    created: "2023-01-27T07:59:06.867383Z"
+    description: A place for all the Kubernetes resources which don't already have
+      a home
+    digest: 25c84dc9cf4a9d9a2182d0c92a41b98c575375d2157816d60c1515f4471c583f
+    home: https://github.com/itscontained/charts/blob/master/itscontained/raw
+    keywords:
+    - raw
+    - incubator
+    - incubator-raw
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: nick@cajun.pro
+      name: DirtyCajunRice
+    name: raw
+    sources:
+    - https://github.com/helm/charts/blob/master/incubator/raw
+    urls:
+    - https://david-heward-unmind.github.io/charts/raw-v0.2.5.tgz
+    version: v0.2.5
+generated: "2023-01-27T07:59:06.859932Z"
